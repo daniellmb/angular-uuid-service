@@ -3,7 +3,7 @@ angular-uuid-service
 
 214 byte standalone AngularJS UUID/GUID generator service that is RFC4122 version 4 compliant
 
-## Demo Use
+## Use
 create something with `uuid` as a dependency, call the `rfc4122.v4()` service.
 
 ```javascript
