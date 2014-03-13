@@ -1,0 +1,10 @@
+{
+  "name": "angular-uuid-service",
+  "version": "0.0.1",
+  "main": "uuid-svc.js",
+  "dependencies": {
+    "angular": ">=v0.9.0"
+  },
+  "devDependencies": {
+  }
+}
