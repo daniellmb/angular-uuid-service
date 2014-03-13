@@ -18,8 +18,17 @@ angular.module('demo', ['uuid'])
   };
 }]);
 ```
-sample directive shows the new UUID/GUID
+sample directive shows the new UUID/GUID ([live example](http://jsfiddle.net/daniellmb/Ppdq5/))
 
 ```html
-<div ng-app="demo" uuid></div>
+<div ng-app="demo">
+    <div uuid></div>
+    <div uuid></div>
+    <div uuid></div>
+    <div uuid></div>
+    <div uuid></div>
+    <div uuid></div>
+    <div uuid></div>
+    <div uuid></div>
+</div>
 ```
