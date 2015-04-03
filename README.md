@@ -1,6 +1,8 @@
 angular-uuid-service
 ====================
 
+[![Join the chat at https://gitter.im/daniellmb/angular-uuid-service](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/daniellmb/angular-uuid-service?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 214 byte standalone AngularJS UUID/GUID generator service that is RFC4122 version 4 compliant.
 
 ## Install
