@@ -4,7 +4,7 @@ node_js:
   - '0.10'
 
 before_script:
-  - npm install -g codeclimate-test-reporter
+  - npm install -g codeclimate-test-reporter && bower
 
 after_script:
   - codeclimate < test/coverage/**/lcov.info
