@@ -105,10 +105,10 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 [npm-image]: https://badge.fury.io/js/angular-uuid-service.png
 
 [irc-url]: http://webchat.freenode.net/?channels=angular-uuid-service
-[irc-image]: http://img.shields.io/badge/irc-%23angular-uuid-service-brightgreen.png
+[irc-image]: http://img.shields.io/badge/irc-%23angular--uuid--service-brightgreen.png
 
 [gitter-url]: https://gitter.im/daniellmb/angular-uuid-service
-[gitter-image]: http://img.shields.io/badge/gitter-daniellmb/angular-uuid-service-brightgreen.png
+[gitter-image]: http://img.shields.io/badge/gitter-daniellmb/angular--uuid--service-brightgreen.png
 
 [tip-url]: https://www.gittip.com/daniellmb
 [tip-image]: http://img.shields.io/gittip/daniellmb.png
