@@ -29,7 +29,8 @@
   },
   "main": "angular-uuid-service.js",
   "scripts": {
-    "test": "gulp"
+    "test": "gulp",
+    "postinstall": "bower install"
   },
   "keywords": [
     "micro",
