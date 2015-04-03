@@ -6,6 +6,7 @@ node_js:
 before_script:
   - npm install -g codeclimate-test-reporter
   - npm install -g bower
+  - bower install
 
 after_script:
   - codeclimate < test/coverage/**/lcov.info
