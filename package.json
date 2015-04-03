@@ -1,0 +1,59 @@
+{
+  "name": "angular-uuid-service",
+  "version": "0.1.0",
+  "description": "angular-uuid-service is a tiny standalone AngularJS UUID/GUID generator service that is RFC4122 version 4 compliant.",
+  "author": {
+    "name": "Daniel Lamb",
+    "email": "dlamb.open.source@gmail.com",
+    "url": "https://github.com/daniellmb"
+  },
+  "homepage": "https://github.com/daniellmb/angular-uuid-service",
+  "bugs": {
+    "url": "https://github.com/daniellmb/angular-uuid-service/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://daniellmb.mit-license.org"
+    }
+  ],
+  "maintainers": [],
+  "contributors": [{
+    "name": "Daniel Lamb",
+    "email": "dlamb.open.source@gmail.com",
+    "url": "https://github.com/daniellmb"
+  }],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/daniellmb/angular-uuid-service.git"
+  },
+  "main": "angular-uuid-service.js",
+  "scripts": {
+    "test": "gulp"
+  },
+  "keywords": [
+    "micro",
+    "service",
+    "angular",
+    "uuid",
+    "guid",
+    "generator",
+    "service"
+  ],
+  "dependencies": {
+  },
+  "devDependencies": {
+    "gulp": "*",
+    "gulp-jshint": "*",
+    "gulp-complexity": "*",
+    "gulp-rename": "*",
+    "gulp-uglify": "*",
+    "gulp-karma": "*",
+    "karma-jasmine": "*",
+    "karma-coverage": "*",
+    "karma-phantomjs-launcher": "*"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  }
+}

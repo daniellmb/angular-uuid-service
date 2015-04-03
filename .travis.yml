@@ -1,0 +1,32 @@
+language: node_js
+
+node_js:
+  - '0.10'
+
+before_script:
+  - npm install -g codeclimate-test-reporter
+
+after_script:
+  - codeclimate < test/coverage/**/lcov.info
+
+notifications:
+  # publish build status to IRC channel: #angular-uuid-service
+  irc:
+    channels:
+    - chat.freenode.net#angular-uuid-service
+    on_success: always
+    on_failure: always
+    template:
+    - '%{repository}#%{build_number} (%{branch} - %{commit} : %{author}): %{message}'
+    - 'Change view : %{compare_url}'
+    - 'Build details : %{build_url}'
+  # publish build status to gitter chat room: https://gitter.im/daniellmb/angular-uuid-service
+  webhooks:
+    urls:
+    - https://webhooks.gitter.im/e/bb8a4a053db3b6c613d9
+    on_success: always
+    on_failure: always
+    on_start: false
+
+env:
+  - CODECLIMATE_REPO_TOKEN=22597717e13fbd848283c454db66d1f1d98de59bfeaaeddb6acbfbdf512bf441
