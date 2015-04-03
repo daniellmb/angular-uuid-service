@@ -81,7 +81,7 @@ describe('Service: uuid', function () {
     it('should be fast', function () {
       var time = verify(rfc4122.v4, iterations, function(){});
       console.log('average uuid generation time ' + time/iterations);
-      expect(time).toBeLessThan(500);
+      expect(time).toBeLessThan(1000);
     });
 
   });
